@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="load-menu" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cainsgl.controlers.loadmenu">
+   <children>
+      <AnchorPane fx:id="windowPane" prefHeight="30.0" prefWidth="314.0">
+         <children>
+            <Button fx:id="miniedButton" focusTraversable="false" layoutX="354.0" mnemonicParsing="false" pickOnBounds="false" styleClass="mined-Button" text="-" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="0.0" />
+            <Button fx:id="closeButton" focusTraversable="false" layoutX="288.0" layoutY="1.0" mnemonicParsing="false" pickOnBounds="false" styleClass="close-Button" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="MainPane" focusTraversable="true" prefHeight="573.0" prefWidth="400.0">
+         <children>
+            <Button mnemonicParsing="false" opacity="0.0" prefHeight="415.0" prefWidth="400.0" />
+            <TextField fx:id="accountField" alignment="CENTER" focusTraversable="false" layoutX="88.0" layoutY="237.0" prefHeight="34.0" prefWidth="231.0" promptText="Account" styleClass="account-filed" />
+            <TextField fx:id="passwordField" alignment="CENTER" focusTraversable="false" layoutX="87.0" layoutY="303.0" prefHeight="34.0" prefWidth="231.0" promptText="PassWord" styleClass="account-filed" visible="false" />
+            <PasswordField fx:id="passwordFieldEntryp" alignment="CENTER" focusTraversable="false" layoutX="87.0" layoutY="303.0" prefHeight="34.0" prefWidth="231.0" promptText="PassWord" styleClass="account-filed" />
+            <ToggleButton fx:id="eyeButton" layoutX="311.0" layoutY="303.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="36.0" styleClass="eye-Button" text="E">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </ToggleButton>
+            <Button fx:id="loadButton" cancelButton="true" contentDisplay="CENTER" defaultButton="true" layoutX="177.0" layoutY="367.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="46.0" styleClass="load-button" text="L" textFill="#0000009e">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="UserIcon" alignment="CENTER" layoutX="54.0" layoutY="239.0" prefHeight="30.0" prefWidth="31.0" text="U" />
+            <Label fx:id="PassIcon" alignment="CENTER" layoutX="54.0" layoutY="303.0" prefHeight="34.0" prefWidth="31.0" text="P" />
+            <Hyperlink fx:id="ForgetPassword" layoutX="280.0" layoutY="346.0" styleClass="forget-password" text="忘记密码？" underline="true" />
+            <Label fx:id="AccountLable" alignment="CENTER" focusTraversable="false" layoutX="160.0" layoutY="237.0" prefHeight="34.0" prefWidth="87.0" text="Account" textFill="#00000067" visible="false" />
+            <Label fx:id="PassWordLable" alignment="CENTER" focusTraversable="false" layoutX="160.0" layoutY="303.0" prefHeight="34.0" prefWidth="87.0" text="PassWord" textFill="#00000066" visible="false" />
+            <Button fx:id="Clear" focusTraversable="false" layoutX="295.0" layoutY="309.0" mnemonicParsing="false" styleClass="eye-Button" text="x" />
+            <ImageView fx:id="Icon" fitHeight="151.0" fitWidth="137.0" layoutX="132.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" />
+            <Rectangle fx:id="ProgressRec" arcHeight="10.0" arcWidth="5.0" fill="#1f93ff00" height="11.0" layoutX="53.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" styleClass="progress-rec" visible="false" width="294.0" />
+            <Rectangle fx:id="ProRec" arcHeight="10.0" arcWidth="5.0" fill="#eba5e3" height="9.0" layoutX="54.0" layoutY="352.0" stroke="BLACK" strokeType="INSIDE" styleClass="pro-rec" visible="false" width="74.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="TipContains" prefHeight="374.0" prefWidth="400.0">
+         <children>
+            <Button mnemonicParsing="false" opacity="0.0" prefHeight="162.0" prefWidth="400.0" text="Button" />
+         </children></AnchorPane>
+   </children>
+</VBox>

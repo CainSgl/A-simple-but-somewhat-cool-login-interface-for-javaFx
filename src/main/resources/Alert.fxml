@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Tip" prefHeight="61.0" prefWidth="287.0" styleClass="tip-screen" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cainsgl.controlers.TipControler">
+   <children>
+      <Label fx:id="TipSpecies" alignment="CENTER" contentDisplay="CENTER" prefHeight="61.0" prefWidth="61.0" styleClass="tip-speecies" text="A" />
+      <Label fx:id="Measge" alignment="TOP_LEFT" focusTraversable="false" layoutX="61.0" layoutY="8.0" prefHeight="54.0" prefWidth="224.0" styleClass="meaasge" text="Meaage" wrapText="true" />
+   </children>
+</AnchorPane>

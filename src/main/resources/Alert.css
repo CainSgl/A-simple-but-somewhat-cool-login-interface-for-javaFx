@@ -1,0 +1,8 @@
+/*这里的修改不会生效*/
+.tip-screen
+{
+    -fx-background-radius: 15;
+    -fx-background-color: linear-gradient(to bottom, rgb(168, 225, 250), rgb(204, 223, 255), rgb(217, 195, 255));
+    -fx-effect: dropshadow(three-pass-box, rgba(139, 139, 139, 0.76), 15.0, 0.2, 0, 0);
+    -fx-border-color: #f1e32d;
+}

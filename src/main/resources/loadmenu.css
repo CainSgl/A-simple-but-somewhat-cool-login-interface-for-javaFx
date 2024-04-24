@@ -1,0 +1,140 @@
+.root {
+    -fx-focus-color: transparent;
+    /*-fx-accent: rgba(0, 147, 255, 0);*/
+
+}
+
+.close-Button {
+    -fx-text-fill: #000000;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0), 15.0, 0.2, 0, 0);
+}
+
+.close-Button:hover {
+    -fx-effect: dropshadow(one-pass-box, #1f3e49, 15.0, 0.2, 0, 0);
+    -fx-background-color: linear-gradient(to bottom, rgba(44, 79, 93, 0.15), rgba(215, 244, 255, 0.2), rgba(255, 243, 243, 0.15));
+    -fx-text-fill: linear-gradient(to bottom, #487b8d, #36203b, #371717);
+
+}
+
+.close-Button:pressed {
+    -fx-text-fill: #000000;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0), 15.0, 0.2, 0, 0);
+}
+
+
+.mined-Button {
+    -fx-text-fill: #646464;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0), 15.0, 0.2, 0, 0);
+}
+
+.mined-Button:hover {
+    -fx-effect: dropshadow(one-pass-box, #2c4f5d, 15.0, 0.2, 0, 0);
+    -fx-background-color: linear-gradient(to bottom, rgba(44, 79, 93, 0.15), rgba(211, 241, 255, 0.2), rgba(255, 243, 243, 0.15));
+    -fx-text-fill: linear-gradient(to bottom, #487b8d, #36203b, #371717);
+}
+
+.mined-Button:pressed {
+    -fx-text-fill: #646464;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0), 15.0, 0.2, 0, 0);
+}
+
+.eye-Button {
+    -fx-text-fill: #020202;
+    -fx-background-color: transparent;
+}
+
+.eye-Button:hover {
+    /*-fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0), 15.0,0.2, 0, 0);*/
+    -fx-cursor: hand;
+    /*-fx-background-color: rgba(171, 114, 193, 0.6);*/
+}
+
+.eye-Button:selected {
+    -fx-text-fill: #0b0b0b;
+    /*-fx-text-fill: rgb(2, 2, 2);*/
+    /*-fx-background-color: rgba(114, 0, 0, 0.34);*/
+}
+
+.eye-Button:selected:hover {
+    -fx-cursor: hand;
+    /*-fx-background-color: rgba(171, 114, 193, 0.6);*/
+}
+
+
+.load-button {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+
+
+    -fx-background-color: rgba(182, 182, 182, 0.32);
+    -fx-border-color: rgba(153, 153, 153, 0.47);
+}
+
+.load-button:hover {
+    -fx-background-color: rgba(182, 182, 182, 0.35);
+    -fx-border-color: rgba(87, 87, 87, 0.63);
+}
+
+/*<RadialGradient centerX="0.5444444444444444" centerY="0.9285714285714286" focusAngle="29.74" radius="0.5">*/
+/*<LinearGradient endX="1.0" endY="1.0">*/
+
+.load-menu {
+    -fx-background-color: linear-gradient(to bottom, rgb(187, 234, 253), rgb(235, 189, 251), rgb(248, 173, 173));
+    -fx-background-radius: 15;
+}
+
+.account-filed {
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(255, 255, 255, 0.55);
+
+}
+
+.account-filed:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.78);
+}
+
+
+.load-progress-bar {
+    /*-fx-background-color: linear-gradient(to right, rgb(187, 234, 253), rgb(235, 189, 251), rgb(248, 173, 173));*/
+    -fx-background-radius: 15;
+    -fx-background-color: red;
+    -fx-border-color: red;
+}
+
+
+/*以下是alert的css样式*/
+
+.tip-screen {
+    -fx-background-radius: 15;
+    -fx-background-color: linear-gradient(to bottom, rgb(168, 225, 250), rgb(204, 223, 255), rgb(217, 195, 255));
+    -fx-effect: dropshadow(three-pass-box, rgba(139, 139, 139, 0.76), 15.0, 0.2, 0, 0);;
+}
+
+.tip-speecies {
+    -fx-effect: dropshadow(three-pass-box, rgba(234, 234, 234, 0.3), 15.0, 0.2, 0, 0);
+}
+
+.pro-rec {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.76), 15.0, 0.2, 0, 0);;
+}
+
+.progress-rec {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(239, 239, 239, 0.76), 15.0, 0.2, 0, 0);;
+}
+
+.forget-password {
+    -fx-text-fill: #a059a8;
+}
+
+.forget-password:hover {
+    -fx-text-fill: #d375df;
+}
